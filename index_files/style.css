@@ -88,7 +88,7 @@ form{
 width: 590px;
 padding: 10px 0;
 float: left;
-background: url(../images/dots.gif) right top repeat-y;
+background: url(./dots.gif) right top repeat-y;
 height: 80px;
 }
 
@@ -131,7 +131,7 @@ margin: 0;
 ul.info li p.social a.tw{
 width: 28px;
 height: 28px;
-background: url(../images/social.png) left top no-repeat;
+background: url(./social.png) left top no-repeat;
 margin-right: 8px;
 float: left;
 }
@@ -139,7 +139,7 @@ float: left;
 ul.info li p.social a.fb{
 width: 28px;
 height: 28px;
-background: url(../images/social.png) -36px top no-repeat;
+background: url(./social.png) -36px top no-repeat;
 float: left;
 margin-right: 8px;
 }
@@ -147,28 +147,28 @@ margin-right: 8px;
 ul.info li p.social a.li{
 width: 28px;
 height: 28px;
-background: url(../images/social.png) -72px top no-repeat;
+background: url(./social.png) -72px top no-repeat;
 float: left;
 }
 
 ul.info li p.social a.tw:hover{
 width: 28px;
 height: 28px;
-background: url(../images/social.png) left bottom no-repeat;
+background: url(./social.png) left bottom no-repeat;
 float: left;
 }
 
 ul.info li p.social a.fb:hover{
 width: 28px;
 height: 28px;
-background: url(../images/social.png) -36px bottom no-repeat;
+background: url(./social.png) -36px bottom no-repeat;
 float: left;
 }
 
 ul.info li p.social a.li:hover{
 width: 28px;
 height: 28px;
-background: url(../images/social.png) -72px bottom no-repeat;
+background: url(./social.png) -72px bottom no-repeat;
 float: left;
 }
 
@@ -176,7 +176,7 @@ float: left;
 
 .field{
 float: left;
-background: url(../images/input.png) left top no-repeat;
+background: url(./input.png) left top no-repeat;
 width: 425px;
 height: 21px;
 font-size: 14px;
@@ -187,7 +187,7 @@ border: none;
 
 .submit_butt{
 float: left;
-background: url(../images/input.png) right top no-repeat;
+background: url(./input.png) right top no-repeat;
 width: 109px;
 height: 41px;
 border: none;
@@ -195,7 +195,7 @@ cursor: pointer;
 }
 
 .submit_butt:hover{
-background: url(../images/input.png) right bottom no-repeat;
+background: url(./input.png) right bottom no-repeat;
 }
 
 .connect{
