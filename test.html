@@ -14,8 +14,10 @@
 
   </head>
   <body class="h-100">
+    
+    <!-- Header -->
     <header class="nvabar fixed-top bg-light">
-        <img src="./logo/xport-light-7-crop.png" alt="" height="35" class="logo">
+        <img src="./logo/xport-light-7-crop.png" alt="" height="50" class="logo">
         <nav class="nav nav-pills p-1 d-flex justify-content-end" role="tablist">
             <a data-bs-toggle="tab" class="nav-link active" aria-controls="home" aria-selected="true" href="#home">Home</a>
             <a data-bs-toggle="tab" class="nav-link" aria-controls="profile" aria-selected="false" href="#profile">Profile</a>
@@ -23,6 +25,7 @@
         </nav>
     </header>
 
+    <!-- Main Content -->
     <main class="tab-content h-100 pt-5 pb-5 text-light bg-dark">
         <br/>
 
@@ -41,10 +44,17 @@
 
     </main>
 
+    <!-- Footer -->
     <footer class="mb-auto text-center text-dark-50 fixed-bottom p-3 bg-light">
         &copy;
         <span id="copyright">
-            <script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script>
+            <script>
+                document.getElementById('copyright').appendChild(
+                    document.createTextNode(
+                        new Date().getFullYear()
+                    )
+                )
+            </script>
         </span>
         - XPORT INDONESIA
     </footer>
