@@ -3,6 +3,20 @@ html {
 }
 
 .logo {
-    margin-right: 0px;
+    margin-top: 2px;
+    margin-left: 2px;
     position: absolute;
+}
+
+.nav-link {
+    padding: 5px;
+}
+
+.nav-pills .nav-link.active {
+    color: #fff;
+    background-color: #a00;
+}
+
+.nav-pills .nav-link {
+    color: #a00;
 }
